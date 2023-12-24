@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+source "$(dirname "$0")"/_init.sh
+
+./gradlew clean publishToSonatype closeAndReleaseSonatypeStagingRepository

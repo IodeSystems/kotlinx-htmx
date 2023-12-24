@@ -1,3 +1,5 @@
+import gradle.kotlin.dsl.accessors._d9dcfd1a467b0b6fe90c5571a57aa558.runtimeElements
+import org.gradle.internal.impldep.org.bouncycastle.asn1.x500.style.RFC4519Style.c
 
 plugins {
   id("common-conventions")
@@ -6,8 +8,10 @@ plugins {
   signing
 }
 
-group = "com.iodesystems.kotlin-htmx"
-version = "1.0.0-SNAPSHOT"
+java {
+  withSourcesJar()
+  withJavadocJar()
+}
 
 publishing {
   publications {
@@ -36,8 +40,10 @@ publishing {
     }
   }
 }
+
 signing {
-//  setRequired { project.version.toString().endsWith("-SNAPSHOT") }
+  setRequired { project.version.toString().endsWith("-SNAPSHOT") }
   useGpgCmd()
-  sign(configurations.runtimeElements.get())
+
+  sign(publishing.publications["mavenJava"])
 }
