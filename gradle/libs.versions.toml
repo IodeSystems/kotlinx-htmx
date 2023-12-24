@@ -1,0 +1,18 @@
+[versions]
+kotlinx_html_version = "0.10.1"
+spring_version = "6.1.2"
+spring_boot_version = "3.2.1"
+jackson_version = "2.16.0"
+kotlin_gradle_plugin_version = "1.9.20"
+
+[libraries]
+kotlinx_html = { module = "org.jetbrains.kotlinx:kotlinx-html-jvm", version.ref = "kotlinx_html_version" }
+spring_web = { module = "org.springframework:spring-web", version.ref = "spring_version" }
+spring_boot_starter_web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "spring_boot_version" }
+spring_boot_starter_websocket = { module = "org.springframework.boot:spring-boot-starter-websocket", version.ref = "spring_boot_version" }
+spring_boot_starter_json = { module = "org.springframework.boot:spring-boot-starter-json", version.ref = "spring_boot_version" }
+jackson_module_kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson_version" }
+kotlin_gradle_plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin_gradle_plugin_version" }
+
+[plugins]
+kotlin_jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin_gradle_plugin_version" }
