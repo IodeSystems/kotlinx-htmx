@@ -46,13 +46,13 @@ Maven:
 <dependencies>
   ...
   <dependency>
-    <groupId>com.iodesystems.kotlin-htmx</groupId>
+    <groupId>com.iodesystems.kotlinx-htmx</groupId>
     <artifactId>htmx</artifactId>
     <version>${check-mvn-repository}</version>
   </dependency>
   <!-- If you want to use it with spring-web -->
   <dependency>
-    <groupId>com.iodesystems.kotlin-htmx</groupId>
+    <groupId>com.iodesystems.kotlinx-htmx</groupId>
     <artifactId>spring</artifactId>
     <version>${check-mvn-repository}</version>
   </dependency>
@@ -67,9 +67,9 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation("com.iodesystems.kotlin-htmx:htmx:${check-mvn-repository}")
+    implementation("com.iodesystems.kotlinx-htmx:htmx:${check-mvn-repository}")
     // If you want to use it with spring-web
-    implementation("com.iodesystems.kotlin-htmx:spring:${check-mvn-repository}")
+    implementation("com.iodesystems.kotlinx-htmx:spring:${check-mvn-repository}")
 }
 ```
 

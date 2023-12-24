@@ -20,5 +20,5 @@ refreshVersions {
 }
 
 
-rootProject.name = "kotlin-htmx"
+rootProject.name = "kotlinx-htmx"
 include("htmx", "spring", "example")
