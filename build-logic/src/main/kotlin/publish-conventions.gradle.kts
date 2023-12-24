@@ -1,6 +1,3 @@
-import gradle.kotlin.dsl.accessors._d9dcfd1a467b0b6fe90c5571a57aa558.runtimeElements
-import org.gradle.internal.impldep.org.bouncycastle.asn1.x500.style.RFC4519Style.c
-
 plugins {
   id("common-conventions")
   `java-library`
