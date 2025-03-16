@@ -21,7 +21,7 @@ spring-web = { module = "org.springframework:spring-web", version.ref = "spring"
 spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "spring-boot" }
 spring-boot-starter-websocket = { module = "org.springframework.boot:spring-boot-starter-websocket", version.ref = "spring-boot" }
 spring-boot-starter-json = "org.springframework.boot:spring-boot-starter-json:3.4.3"
-jackson-module-kotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:2.16.1"
+jackson-module-kotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:2.18.3"
 gradle-plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 gradle-plugin-nexus-publish = "io.github.gradle-nexus:publish-plugin:2.0.0"
 kotlinx-html-jvm = { group = "org.jetbrains.kotlinx", name = "kotlinx-html-jvm", version.ref = "kotlinx-html" }
