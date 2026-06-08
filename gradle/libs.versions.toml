@@ -8,7 +8,7 @@ io-github-gradle-nexus-publish-plugin = { id = "io.github.gradle-nexus.publish-p
 
 [versions]
 
-spring = "6.2.5"
+spring = "6.2.19"
 spring-boot = "3.4.4"
 jackson = "2.16.0"
 kotlin = "2.1.20"
